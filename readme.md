@@ -1,2 +1,3 @@
-#Projeto de LP1
+# Projeto de LP1
 Demonstação do funcionamento:
+![Screenshot](Sorveteria.png)</br>
