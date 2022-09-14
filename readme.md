@@ -1,3 +1,3 @@
 # Projeto de LP1
 Demonstação do funcionamento:
-![Screenshot](Sorveteria.png)</br>
+![Screenshot](images/agenda.gif)</br>
