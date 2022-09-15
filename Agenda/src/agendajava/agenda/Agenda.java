@@ -12,6 +12,8 @@ public class Agenda {
     private String nome;
     private String numero;
     private String email;
+    private int ligacao;
+    private int enviados;
     
     
     /*public void salvar(String nome, String numero, String email){
@@ -59,5 +61,31 @@ public class Agenda {
     
     public void setEmail(String email){
         this.email = email;
+    }
+    
+    void ligar(){
+        ligacao = ligacao + 1;
+        
+    }
+    
+    void enviaremail(){
+        enviados = enviados + 1;
+
+    }
+    
+    public int getLigacao(){
+        return ligacao;
+    }
+    
+    public void setLigacao(int ligacao){
+        this.ligacao = ligacao;
+    }
+    
+    public int getEnviados(){
+        return enviados;
+    }
+    
+    public void setEnviados(int enviados){
+        this.enviados = enviados;
     }
 }
